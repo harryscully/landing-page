@@ -10,8 +10,8 @@ body {
  /* header css */
  
  
- .header {
-    padding: 1em 5em;
+ header {
+    padding: 1em 15em;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
@@ -25,12 +25,12 @@ body {
  }
  
  
- ul {
+ nav {
     padding: 0;
     margin: 0;
     list-style-type: none;
     display: flex;
-    display: flex-end;
+    justify-content: flex-end;
     gap: 1em;
     align-items: center;
  }
@@ -42,3 +42,60 @@ body {
     text-decoration: none;
  }
  
+ /* Hero section */
+
+ .hero-section {
+    margin: 0;
+    padding: 3em 15em;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    align-items: stretch;
+    background-color: #1f2937;
+ }
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+ h1 {
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+ }
+
+ .p-hero {
+    margin: 0;
+    padding: 0;
+    color: #e5e7eb;
+    font-size: 18px;
+ }
+
+ .button-hero {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 0.5em 1em;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+ }
+
+.img-container {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

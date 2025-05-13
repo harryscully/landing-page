@@ -61,6 +61,8 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 1em;
+    min-width: 280px;
+    max-width: 500px;
 }
 
  h1 {
@@ -91,7 +93,7 @@ body {
 
 .img-container {
     display: flex;
-    flex-shrink: 0;
+    flex-shrink: 0.5;
 }
 
 .hero-image {
